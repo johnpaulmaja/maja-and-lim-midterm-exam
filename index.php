@@ -1,6 +1,6 @@
 <?php
        $domOBJ = new DOMDocument();
-       $domOBJ->load("http://localhost/book/rss.php");//XML page URL
+       $domOBJ->load("https://maja-and-lim-midterm-exam.herokuapp.com/rss.php");//XML page URL
 
        $content1 = $domOBJ->getElementsByTagName("romance");
        $content2 = $domOBJ->getElementsByTagName("actionandadventure");
